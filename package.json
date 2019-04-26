@@ -1,0 +1,22 @@
+{
+  "name": "@greatgatsbyjs/gatsby-starter-ggt-material-ui-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gatsby-config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gatsby theme",
+    "gaysby starter",
+    "material ui blog"
+  ],
+  "author": "Kaleb @ greatgatsbyjsThemes.com",
+  "license": "ISC",
+  "dependencies": {
+    "@greatgatsbyjs/gatsby-theme-ggt-material-ui-blog": "^1.0.8",
+    "gatsby": "^2.3.25",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}

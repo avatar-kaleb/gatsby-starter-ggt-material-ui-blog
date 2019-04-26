@@ -1,0 +1,37 @@
+[
+    {
+        "componentChunkName": "component---node-modules-greatgatsbyjs-gatsby-theme-ggt-material-ui-blog-src-pages-index-js",
+        "jsonName": "index",
+        "path": "/"
+    },
+    {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "jsonName": "dev-404-page-5f9",
+        "path": "/dev-404-page/"
+    },
+    {
+        "componentChunkName": "component---node-modules-greatgatsbyjs-gatsby-theme-ggt-material-ui-blog-src-pages-legal-js",
+        "jsonName": "legal-9f3",
+        "path": "/legal/"
+    },
+    {
+        "componentChunkName": "component---node-modules-greatgatsbyjs-gatsby-theme-ggt-material-ui-blog-src-templates-blog-post-js",
+        "jsonName": "test-3-9d3",
+        "path": "/test3/"
+    },
+    {
+        "componentChunkName": "component---node-modules-greatgatsbyjs-gatsby-theme-ggt-material-ui-blog-src-templates-blog-post-js",
+        "jsonName": "test-4-9ec",
+        "path": "/test4/"
+    },
+    {
+        "componentChunkName": "component---node-modules-greatgatsbyjs-gatsby-theme-ggt-material-ui-blog-src-templates-blog-post-js",
+        "jsonName": "test-5-5fd",
+        "path": "/test5/"
+    },
+    {
+        "componentChunkName": "component---node-modules-greatgatsbyjs-gatsby-theme-ggt-material-ui-blog-src-templates-blog-post-js",
+        "jsonName": "test-6-491",
+        "path": "/test6/"
+    }
+]
