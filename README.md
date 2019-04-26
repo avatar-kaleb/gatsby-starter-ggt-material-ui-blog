@@ -2,6 +2,8 @@
 
 This is a Gatsby Starter created to make using the [gatsby-starter-material-ui-blog-theme](https://www.npmjs.com/package/@greatgatsbyjs/gatsby-theme-ggt-material-ui-blog) [Gatsby Theme](https://www.gatsbyjs.org/blog/2018-11-11-introducing-gatsby-themes/) easy, with an example for quicker set up.
 
+See the [Example Site](https://gatsby-theme-ggt-material-ui-blog.netlify.com/) to see the design :).
+
 ## Use the Starter
 
 Gatsby Themes are currently in development so we use the `__expetimentalTheme` option, to resolve and pass in theme options within our `gatsby-config.js` file.

@@ -20,7 +20,7 @@ module.exports = {
           rssUrl: '/rss.xml', // the rss feed url
           seoKeywords: ['seo word1', 'seo word2'], // keywords for your site passed to the SEO component
           sitemapUrl: '/sitemap.xml', // url of your sitemap - recommend leaving it default
-          siteUrl: 'http://localhost:8000', // the url of your site
+          siteUrl: 'https://gatsby-theme-ggt-material-ui-blog.netlify.com', // the url of your site
           tagline: 'High quality - simple set up!', // the tag line for the title of your blog
           title: `Great Gatsby JS Themes` // the title on the blog
         },
