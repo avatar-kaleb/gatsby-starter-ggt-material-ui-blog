@@ -772,10 +772,10 @@
     signedsource "^1.0.0"
     yargs "^9.0.0"
 
-"@greatgatsbyjs/gatsby-theme-ggt-material-ui-blog@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@greatgatsbyjs/gatsby-theme-ggt-material-ui-blog/-/gatsby-theme-ggt-material-ui-blog-1.0.8.tgz#650a4e15f6e05242cde27b6095aad26912ade171"
-  integrity sha512-KaoE6ERD6G2+HSO9KYhY1yxO4CooiMMlFL9yQGIK3ZEUDn4BjETgIZQQ0ahH7x6mYfpsEm5g4FifeF/5t3D4pQ==
+"@greatgatsbyjs/gatsby-theme-ggt-material-ui-blog@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@greatgatsbyjs/gatsby-theme-ggt-material-ui-blog/-/gatsby-theme-ggt-material-ui-blog-1.0.9.tgz#74aeb1e10b3856452cfff846bd9e94621fb89ee0"
+  integrity sha512-024mIC776K5os7iRaC407/rflJIm7hdOj41L/536/L+vKY9IPzNywL6lelOehvFyWffPnVSRJzF9lv5gqFmwyA==
   dependencies:
     "@material-ui/core" "^3.9.3"
     "@mdx-js/mdx" "^1.0.14"

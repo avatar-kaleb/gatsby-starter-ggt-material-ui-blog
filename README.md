@@ -56,7 +56,8 @@ content/
 gatsby-config.js
 package.json
 ```
-
+First, install `node_modules` with `yarn`.
+Second, make sure you have gatsby-cli, here's the [guide](https://www.gatsbyjs.org/docs/quick-start) to set up Gatsby
 To run the blog locally, use `gatsby develop`. To create a product build, use `gatsby-build`, then deploy with your preferred hosting! (I recommend Netlify.)
 
 ## Override Components / Files (Component Shadowing)
