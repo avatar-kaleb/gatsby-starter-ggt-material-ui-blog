@@ -37,7 +37,7 @@ Here's the [guide](https://www.gatsbyjs.org/docs/quick-start) to set up Gatsby
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
 
-Gatsby Themes are currently in development so we use the `__expetimentalTheme` option, to resolve and pass in theme options within our `gatsby-config.js` file. Configure your theme by passing in the options you want :) with the siteMetadata options.
+Gatsby Themes are currently in development so we use the `__expetimentalTheme` option, to resolve and pass in theme options within our `gatsby-config.js` file. Configure your theme by passing in the siteMetadata options you want :)
 
   ```
   // gatsby-config.js
