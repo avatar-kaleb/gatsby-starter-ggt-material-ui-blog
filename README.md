@@ -95,6 +95,15 @@ Your example project will look like this:
 
   To write a new blog, simply create a new md or mdx file in the content/blog directory and you should see it on your home page!
 
+## Add Your Profile Image
+
+To add a new profile image to the index page, you can either link directly to a file you have hosted somewhere by using the `avatarSrcImage` field within the gatsby-config site metadata, or follow the steps below to add one to the starter.
+
+1. Create a static folder at the root of the starter
+2. Add your image, for example I added `profile-image.png`
+3. Edit `gatsby-config` to use that image by using the exact same file name with extension to the siteMetadata field
+4. Restart your dev server andsee your image :)
+
 
 ## Override Components / Files (Component Shadowing)
 
@@ -116,3 +125,9 @@ For example, if you would like to override the default `Bio` component:
 The bio component should then render instead of the default one!
 
 *Note* I'm still working to make sure this feature works 100% - please let me know if there are any issues!
+
+## Contact Kaleb!
+
+If you're downloading the theme and having any issues, please let me know via a github issue or through Twitter: @KalebMcKelvey
+
+Thank you for using and would love to hear how I can make it better for you!
