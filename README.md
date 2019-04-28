@@ -126,7 +126,7 @@ The bio component should then render instead of the default one!
 
 *Note* I'm still working to make sure this feature works 100% - please let me know if there are any issues!
 
-## Contact Kaleb!
+## Contact Kaleb
 
 If you're downloading the theme and having any issues, please let me know via a github issue or through Twitter: @KalebMcKelvey
 
