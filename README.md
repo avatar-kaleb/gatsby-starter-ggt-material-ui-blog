@@ -42,7 +42,7 @@ Gatsby Themes are currently in development so we use the `__expetimentalTheme` o
   ```
   // gatsby-config.js
   module.exports = {
-    __experimentalThemes: [
+    plugins: [
       {
         resolve: '@greatgatsbyjs/gatsby-theme-ggt-material-ui-blog',
         options: {
@@ -55,7 +55,11 @@ Gatsby Themes are currently in development so we use the `__expetimentalTheme` o
             description: 'test', // description of your site for your rss feed
             gATrackingID: 'GA-xxxxx', // google analytics tracking id
             icon: '/static/logo-256.png', // the icon used for your fav and manifest icon. 512px would be best
-            manifestShortName: 'GGT Material UI Blog', // The shortname used in the manifest for offline capabilities
+            manifest: {
+              backgroundColor: '#e0e0e0',
+                shortName: 'GGT Material UI Blog', // The shortname used in the manifest for offline capabilities
+                themeColor: '#0D47A1'
+            },
             pathPrefix: '/', // if you want to prefix your site with /blog or other options, do so here.
             postCardReadBtnText: 'Read More', // the text on each post preview button on the home page.
             postDateFormat: 'MMMM Do, YYYY', // the date format below each post
@@ -64,13 +68,15 @@ Gatsby Themes are currently in development so we use the `__expetimentalTheme` o
             seoKeywords: ['seo word1', 'seo word2'], // keywords for your site passed to the SEO component
             sitemapUrl: '/sitemap.xml', // url of your sitemap - recommend leaving it default
             siteUrl: 'http://localhost:8000', // the url of your site
-            tagline: 'High quality - simple set up!', // the tag line for the title of your blog
+            tagline: 'High quality - simple set up!', // the tag line for the title of your blog,
+            theme: {
+              // these colors are passed to the material-ui plugin to create material themes. Use this pallete to decide: https://material-ui.com/style/color/.
+              // The recommendation is to pick a 400 level color as primary, and an a700 color as secondary.
+              primary: '#3f51b5',
+              secondary: '#00796b'
+            }
             title: `Great Gatsby JS Themes` // the title on the blog
           },
-          // these colors are passed to the material-ui plugin to create material themes. Use this pallete to decide: https://material-ui.com/style/color/.
-          // The recommendation is to pick a 400 level color as primary, and an a700 color as secondary.
-          primaryColor: '#3f51b5',
-          secondaryColor: '#00796b'
         }
       }
     ]
@@ -124,7 +130,7 @@ For example, if you would like to override the default `Bio` component:
 
 The bio component should then render instead of the default one!
 
-*Note* I'm still working to make sure this feature works 100% - please let me know if there are any issues!
+*Note* I have been unable to get component shadowing to work properly and have reached out to the gatsby team on Discord. Hopefully we can get it working soon :).
 
 ## Contact Kaleb
 

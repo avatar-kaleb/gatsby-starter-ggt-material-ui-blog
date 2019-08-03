@@ -1,6 +1,6 @@
 {
   "name": "@greatgatsbyjs/gatsby-starter-ggt-material-ui-blog",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "Gatsby starter that uses a Material-ui blog theme - letting you set up an blog with minimal effort!",
   "repository": {
     "type": "git",
@@ -18,8 +18,8 @@
   "author": "Kaleb @ greatgatsbyjsThemes.com",
   "license": "ISC",
   "dependencies": {
-    "@greatgatsbyjs/gatsby-theme-ggt-material-ui-blog": "^1.0.16",
-    "gatsby": "^2.3.25",
+    "@greatgatsbyjs/gatsby-theme-ggt-material-ui-blog": "^1.1.5",
+    "gatsby": "^2.13.50",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }
