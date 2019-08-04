@@ -113,12 +113,12 @@ To add a new profile image to the index page, you can either link directly to a 
 
 ## Override Components / Files (Component Shadowing)
 
-To override a theme component, you will need to add `src/gatsby-theme-ggt-material-ui-blog` with the name of the file you want to override.
+To override a theme component, you will need to add `src/@greatgatsbyjs/gatsby-theme-ggt-material-ui-blog/<dir>` with the name of the file you want to override.
 
 For example, if you would like to override the default `Bio` component:
 
   ```js
-  // src/gatsby-theme-egghead-blog/Bio/index.js
+  // src/@greatgatsbyjs/gatsby-theme-ggt-material-ui-blog/Bio/index.js
   import React from 'react'
 
   const Bio = (props) => (
@@ -129,8 +129,6 @@ For example, if you would like to override the default `Bio` component:
   ```
 
 The bio component should then render instead of the default one!
-
-*Note* I have been unable to get component shadowing to work properly and have reached out to the gatsby team on Discord. Hopefully we can get it working soon :).
 
 ## Contact Kaleb
 
