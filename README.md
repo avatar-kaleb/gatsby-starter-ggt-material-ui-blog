@@ -2,7 +2,7 @@
 
 This is a Gatsby Starter created to make using the [gatsby-starter-material-ui-blog-theme](https://www.npmjs.com/package/@greatgatsbyjs/gatsby-theme-ggt-material-ui-blog) [Gatsby Theme](https://www.gatsbyjs.org/blog/2018-11-11-introducing-gatsby-themes/) easy, with an example for quicker set up.
 
-See the [Example Site](https://gatsby-theme-ggt-material-ui-blog.netlify.com/) to see the design :).
+See the [Example Site](https://gatsby-theme-material-ui-blog.netlify.com/) to see the design :).
 
 ## Use the Starter
 
@@ -37,7 +37,7 @@ Here's the [guide](https://www.gatsbyjs.org/docs/quick-start) to set up Gatsby
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
 
-Gatsby Themes are currently in development so we use the `__expetimentalTheme` option, to resolve and pass in theme options within our `gatsby-config.js` file. Configure your theme by passing in the siteMetadata options you want :)
+Gatsby Themes are passed as a plugin, and we can use theme options within our `gatsby-config.js` file to override options. Configure your theme by passing in the siteMetadata options you want :)
 
   ```
   // gatsby-config.js
